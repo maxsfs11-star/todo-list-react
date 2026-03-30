@@ -1,16 +1,58 @@
-# React + Vite
+# 📝 Todo List React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação de lista de tarefas desenvolvida com React, com funcionalidades completas de gerenciamento de tarefas.
 
-Currently, two official plugins are available:
+## 🚀 Acesse o projeto online
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 todo-list-react-ten-iota.vercel.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Preview
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Preview do projeto](./preview.png)
+
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+
+---
+
+## ✨ Funcionalidades
+
+- ✅ Adicionar tarefas
+- 📝 Editar tarefas
+- ❌ Remover tarefas
+- ✔️ Marcar como concluída
+- 🔍 Filtrar tarefas (todas / pendentes / concluídas)
+- 💾 Persistência com localStorage
+- 🌙 Modo escuro (dark mode)
+- 📱 Responsivo para mobile
+- 🧹 Limpar todas as tarefas com confirmação
+
+---
+
+## 🧠 Aprendizados
+
+Durante o desenvolvimento deste projeto, foram aplicados conceitos importantes como:
+
+- useState e useEffect
+- Renderização condicional
+- Manipulação de arrays (map, filter)
+- Persistência de dados no navegador
+- Componentização e organização de código
+- Integração com Git e GitHub
+- Deploy com Vercel
+
+---
+
+https://github.com/maxsfs11-star/todo-list-react#
+
