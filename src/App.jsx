@@ -1,10 +1,6 @@
 import { useState, useEffect } from "react";
 
-
-
-
 function App() {
-
   const [confirmarLimpar, setConfirmarLimpar] = useState(false);
 
   const [temaEscuro, setTemaEscuro] = useState(() => {
@@ -40,20 +36,18 @@ function App() {
     }
   }
 
-  
-
   function limparTarefas() {
-  setConfirmarLimpar(true);
-}
+    setConfirmarLimpar(true);
+  }
 
-function confirmarLimpeza() {
-  setListaTarefas([]);
-  setConfirmarLimpar(false);
-}
+  function confirmarLimpeza() {
+    setListaTarefas([]);
+    setConfirmarLimpar(false);
+  }
 
-function cancelarLimpeza() {
-  setConfirmarLimpar(false);
-}
+  function cancelarLimpeza() {
+    setConfirmarLimpar(false);
+  }
 
   function removerTarefa(idRemover) {
     const novaLista = listaTarefas.filter((item) => item.id !== idRemover);
@@ -121,8 +115,6 @@ function cancelarLimpeza() {
     setListaTarefas(novaLista);
   }
 
-  
-
   const tarefasFiltradas = listaTarefas.filter((item) => {
     if (filtro === "pendentes") {
       return item.concluida === false;
@@ -135,21 +127,16 @@ function cancelarLimpeza() {
     return true;
   });
 
-  
-
   return (
-
-    
-
     <div className={temaEscuro ? "container dark" : "container"}>
       <div className="card">
         <button
           onClick={() => setTemaEscuro(!temaEscuro)}
           className="botao-tema"
         >
-      {temaEscuro ? "Modo Claro" : "Modo Escuro"}
-    </button>
-        <h1 className="titulo">Todo List</h1>
+          {temaEscuro ? "Modo Claro" : "Modo Escuro"}
+        </button>
+        <h1 className="titulo">Minha Lista de Tarefas</h1>
 
         <div className="input-area">
           <input
